@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f6d365, #fda085); /* мягкий оранжево-персиковый градиент */
+    padding: 20px;
+    color: #333;
+    min-height: 100vh; /* чтобы градиент покрывал всю высоту */
+    margin: 0;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #004999;
+}
+
+.main-photo {
+    width: 300px;
+    display: block;
+    margin: 20px 0;
+    border-radius: 10px; /* скругление углов фото для современного вида */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* лёгкая тень */
+}
